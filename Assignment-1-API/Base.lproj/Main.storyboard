@@ -29,7 +29,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Get Cat Facts API"/>
                                 <connections>
-                                    <action selector="getCatFactsAPIData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qk8-BL-tt2"/>
+                                    <action selector="getCatFactsAPIData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HF2-M7-9Ch"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZx-RM-nlJ">

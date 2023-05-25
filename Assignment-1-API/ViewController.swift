@@ -11,14 +11,24 @@ class ViewController: UIViewController {
 
     
     @IBAction func getCatFactsAPIData(_ sender: Any) {
-        
+        Task {
+                    print("Cat Facts API Data: ")
+                    print(await CatFacts_Helper.fetch())
+                    }
     }
-    
     @IBAction func getMeowFactsAPIData(_ sender: Any) {
+        Task {
+            print("Meow Facts API Data: ")
+            print(await MeowFactsAPIHelper.fetch())
+            }
     }
     
     
     @IBAction func getParallelumAPIData(_ sender: Any) {
+        Task {
+            print("Parallelum API Data: ")
+            print(await ParallelumAPI_Helper.fetch())
+            }
     }
     
     override func viewDidLoad() {
