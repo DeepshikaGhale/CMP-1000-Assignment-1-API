@@ -13,6 +13,9 @@
 		0D259CC92A1ECCE5001A8DBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D259CC72A1ECCE5001A8DBC /* Main.storyboard */; };
 		0D259CCB2A1ECCE6001A8DBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D259CCA2A1ECCE6001A8DBC /* Assets.xcassets */; };
 		0D259CCE2A1ECCE6001A8DBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D259CCC2A1ECCE6001A8DBC /* LaunchScreen.storyboard */; };
+		0D259CD62A1ECD62001A8DBC /* Meow_Facts_API_Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D259CD52A1ECD62001A8DBC /* Meow_Facts_API_Helper.swift */; };
+		0D259CD82A1EDC41001A8DBC /* ParallelumAPI_Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D259CD72A1EDC40001A8DBC /* ParallelumAPI_Helper.swift */; };
+		0D259CDA2A1EDC5F001A8DBC /* CatFacts_Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D259CD92A1EDC5F001A8DBC /* CatFacts_Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		0D259CCA2A1ECCE6001A8DBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D259CCD2A1ECCE6001A8DBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D259CCF2A1ECCE6001A8DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D259CD52A1ECD62001A8DBC /* Meow_Facts_API_Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meow_Facts_API_Helper.swift; sourceTree = "<group>"; };
+		0D259CD72A1EDC40001A8DBC /* ParallelumAPI_Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallelumAPI_Helper.swift; sourceTree = "<group>"; };
+		0D259CD92A1EDC5F001A8DBC /* CatFacts_Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFacts_Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				0D259CCA2A1ECCE6001A8DBC /* Assets.xcassets */,
 				0D259CCC2A1ECCE6001A8DBC /* LaunchScreen.storyboard */,
 				0D259CCF2A1ECCE6001A8DBC /* Info.plist */,
+				0D259CD52A1ECD62001A8DBC /* Meow_Facts_API_Helper.swift */,
+				0D259CD72A1EDC40001A8DBC /* ParallelumAPI_Helper.swift */,
+				0D259CD92A1EDC5F001A8DBC /* CatFacts_Helper.swift */,
 			);
 			path = "Assignment-1-API";
 			sourceTree = "<group>";
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D259CD62A1ECD62001A8DBC /* Meow_Facts_API_Helper.swift in Sources */,
 				0D259CC62A1ECCE5001A8DBC /* ViewController.swift in Sources */,
+				0D259CDA2A1EDC5F001A8DBC /* CatFacts_Helper.swift in Sources */,
 				0D259CC22A1ECCE5001A8DBC /* AppDelegate.swift in Sources */,
 				0D259CC42A1ECCE5001A8DBC /* SceneDelegate.swift in Sources */,
+				0D259CD82A1EDC41001A8DBC /* ParallelumAPI_Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
